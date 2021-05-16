@@ -1,0 +1,52 @@
+Circuit: * C:\Users\eduar\Documents\LTspiceXVII\Trabalho1_Simu_1B.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:p      d:u1:ln     d:u1:lp     d:u1:e      d:u1:c
+Model:    u1:dx       u1:dx       u1:dx       u1:dx       u1:dx
+Id:     -3.00e-11   -2.51e-11   -2.49e-11   -2.35e-11   -1.29e-12
+Vd:     -3.00e+01   -2.51e+01   -2.49e+01   -2.35e+01   -1.29e+00
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:       q1        q:u1:2      q:u1:1
+Model:    2n3904       u1:qx       u1:qx
+Ib:       7.46e-05    8.42e-08    8.37e-08
+Ic:       2.21e-02    5.26e-06    5.23e-06
+Vbe:      7.39e-01    5.85e-01    5.85e-01
+Vbc:     -4.24e+00   -4.96e+00   -4.96e+00
+Vce:      4.98e+00    5.54e+00    5.54e+00
+BetaDC:   2.97e+02    6.25e+01    6.25e+01
+Gm:       8.15e-01    2.03e-04    2.02e-04
+Rpi:      3.47e+02    3.07e+05    3.09e+05
+Rx:       2.00e+01    0.00e+00    0.00e+00
+Ro:       4.71e+03    5.79e+96    5.89e+96
+Cbe:      2.99e-10    0.00e+00    0.00e+00
+Cbc:      2.14e-12    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.83e+02    6.25e+01    6.25e+01
+Cbx:      0.00e+00    0.00e+00    0.00e+00
+Ft:       4.31e+08    0.00e+00    0.00e+00
+
+

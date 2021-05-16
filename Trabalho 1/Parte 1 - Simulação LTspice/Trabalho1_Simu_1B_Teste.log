@@ -1,0 +1,39 @@
+Circuit: * C:\Users\eduar\Documents\LTspiceXVII\Trabalho1_Simu_1B_Teste.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 56.0606%
+Source Step = 57.4574%
+vernier = 0.000976563
+Source Step = 57.4751%
+Source Step = 57.5047%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+vernier = 0.25
+Source Step = 30.6818%
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 5 µs.
+Fatal Error: Analysis Failed: Iteration limit reached

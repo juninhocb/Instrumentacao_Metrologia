@@ -1,0 +1,11 @@
+* C:\Users\eduar\Desktop\jr\Instrumentação e Metrologia\Trabalho 2\Simulação LTSpice\ponteWheatstone_Termistor.asc
+V1 N001 0 1.09
+R1 N001 VoutA 2.35k
+R2 VoutA 0 10k
+R3 N001 VoutB 8.9k
+R4 VoutB 0 {R4}
+.param R4 12k*exp(3740*((1/(temp+273))- (1/298)))
+.step param temp 0 50 1
+.op
+.backanno
+.end
